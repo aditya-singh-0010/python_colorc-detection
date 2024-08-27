@@ -3,7 +3,12 @@ import numpy as np
 import pandas as pd
 import argparse
 
-#Creating argument parser to take image path from command line
+# this is my first project////
+# this is my first project////
+# this is my first project////
+# this is my first project////
+
+#Creating argument parser to take image path from command line 
 ap = argparse.ArgumentParser()
 ap.add_argument('-i', '--image', required=True, help="Image Path")
 args = vars(ap.parse_args())
